@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+/* body {
   font-family: Arial, Helvetica, sans-serif;
-}
+} */
 
 @layer base {
   :root {
@@ -68,5 +68,6 @@ body {
   }
   body {
     @apply bg-background text-foreground;
+    @apply font-primary bg-prima text-white leading-loose;
   }
 }

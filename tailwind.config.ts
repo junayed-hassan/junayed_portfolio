@@ -8,10 +8,30 @@ export default {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+	container: {
+		center: true,
+		padding: "15px",
+	},
+	screens: {
+		sm: "640px",
+		md: "768px",
+		lg: "960px",
+		xl: "1200px",
+	},
+	fontFamily: {
+		primary: "var(--font-jetbrainsMono)",
+	},
   	extend: {
   		colors: {
+			prima:'#1c1c22',
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
+			  accent: {
+				hsl: 'hsl(var(--accent))',
+				foreground: 'hsl(var(--accent-foreground))',
+				DEFAULT: '#00ff99',
+				hover: '#00e187',
+			},
   			card: {
   				DEFAULT: 'hsl(var(--card))',
   				foreground: 'hsl(var(--card-foreground))'
@@ -31,10 +51,6 @@ export default {
   			muted: {
   				DEFAULT: 'hsl(var(--muted))',
   				foreground: 'hsl(var(--muted-foreground))'
-  			},
-  			accent: {
-  				DEFAULT: 'hsl(var(--accent))',
-  				foreground: 'hsl(var(--accent-foreground))'
   			},
   			destructive: {
   				DEFAULT: 'hsl(var(--destructive))',

@@ -2,7 +2,7 @@
 export default function Home() {
   return (
     <div>
-      <p>Hi Iam junayed hassan </p>
+      <p>home page</p>
     </div>
   );
 }
