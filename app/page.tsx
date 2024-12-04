@@ -16,7 +16,7 @@ function Home() {
             <h1 className="h1 mb-6">
               Hello I&apos;m <br /> <span className="text-accent whitespace-nowrap">Junayed Hassan</span>
             </h1>
-            <p className="max-w-[500px] mb-9 text-white/80">I excel at crafting elegant digital experiences and  I am proficient in various programming languages and technologies.</p>
+            <p className="max-w-[500px] mb-9 text-white/80">Amir specializes in creating cutting-edge projects with expertise across a wide range of programming languages ​​and technologies.</p>
             {/* btn and sacials */}
             <div className="flex flex-col xl:flex-row items-center gap-8 ">
               <Button variant="outline" size="lg" className="uppercase flex items-center gap-2" >
