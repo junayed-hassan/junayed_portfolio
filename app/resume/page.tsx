@@ -182,9 +182,9 @@ const skills = {
 function Resume() {
   return (
     <motion.section
-    initial={{opacity: 1}}
-    animate={{ opacity: 1, transition: {delay: 2.4, duration: 0.4, ease: "easeIn"} }}
-    className="min-w-[80pv] flex items-start justify-center py-12 xl:py-0">
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1, transition: { delay: 2.4, duration: 0.4, ease: "easeIn" } }}
+      className="min-w-[80pv] flex items-start justify-center py-12 xl:py-0">
       
       <div className="container mx-auto">
         <Tabs defaultValue="experience" className="flex flex-col xl:flex-row gap-[60px]">
