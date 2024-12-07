@@ -181,12 +181,9 @@ const skills = {
 
 function Resume() {
   return (
-    <motion.div
+    <motion.section
     initial={{opacity: 1}}
-    animate={{
-      opacity: 1,
-      transition: { delay: 2.4, duration: 0.4, ease: "easeIn" },
-    }} 
+    animate={{ opacity: 1, transition: {delay: 2.4, duration: 0.4, ease: "easeIn"} }}
     className="min-w-[80pv] flex items-start justify-center py-12 xl:py-0">
       
       <div className="container mx-auto">
@@ -298,7 +295,7 @@ function Resume() {
           </div>
         </Tabs>
       </div>
-    </motion.div>
+    </motion.section>
   )
 }
 
